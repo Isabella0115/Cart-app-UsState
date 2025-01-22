@@ -2,8 +2,10 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import Header from './component/Header';
 import Main from './component/Main';
 import Footer from './component/Footer';
-import items from './Items';
+import { fetchProducts } from './utils/fetchData'; 
+import { useState, useEffect } from 'react';
 import './App.css';
+
 
 const LoginBanner = ({ status }) => {
   const alertClasses = {
@@ -27,11 +29,25 @@ function App() {
   const openingHours = "We are open from 9:00 AM to 6:00 PM";
   const isUserLogin = false;
 
+  const [products, setProducts] = useState([]);
+  const [loading, setLoading] = useState(true);
+
+ 
+  useEffect(() => {
+    const getProducts = async () => {
+      const data = await fetchProducts(); 
+      setProducts(data); 
+      setLoading(false); 
+    };
+
+    getProducts(); 
+  }, []); 
+
   return (
     <div className="container my-4">
       <Header />
-      {!isUserLogin && <LoginBanner/>}
-      <Main items={items} />
+      {!isUserLogin && <LoginBanner />}
+      {loading ? <p>Loading products...</p> : <Main items={products} />}
       <Footer opening={openingHours} />
     </div>
   );
