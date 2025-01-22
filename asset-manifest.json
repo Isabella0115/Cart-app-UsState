@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/Cart-app-UsState/static/css/main.0d8190fe.css",
-    "main.js": "/Cart-app-UsState/static/js/main.ddec4040.js",
-    "static/js/156.7bfc25ed.chunk.js": "/Cart-app-UsState/static/js/156.7bfc25ed.chunk.js",
-    "index.html": "/Cart-app-UsState/index.html",
-    "main.0d8190fe.css.map": "/Cart-app-UsState/static/css/main.0d8190fe.css.map",
-    "main.ddec4040.js.map": "/Cart-app-UsState/static/js/main.ddec4040.js.map",
-    "156.7bfc25ed.chunk.js.map": "/Cart-app-UsState/static/js/156.7bfc25ed.chunk.js.map"
+    "main.css": "/Isabella0115/Cart-app-UsState.git/static/css/main.0d8190fe.css",
+    "main.js": "/Isabella0115/Cart-app-UsState.git/static/js/main.5a001bc2.js",
+    "static/js/156.7bfc25ed.chunk.js": "/Isabella0115/Cart-app-UsState.git/static/js/156.7bfc25ed.chunk.js",
+    "index.html": "/Isabella0115/Cart-app-UsState.git/index.html",
+    "main.0d8190fe.css.map": "/Isabella0115/Cart-app-UsState.git/static/css/main.0d8190fe.css.map",
+    "main.5a001bc2.js.map": "/Isabella0115/Cart-app-UsState.git/static/js/main.5a001bc2.js.map",
+    "156.7bfc25ed.chunk.js.map": "/Isabella0115/Cart-app-UsState.git/static/js/156.7bfc25ed.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.0d8190fe.css",
-    "static/js/main.ddec4040.js"
+    "static/js/main.5a001bc2.js"
   ]
 }
